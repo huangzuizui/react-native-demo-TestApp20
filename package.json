@@ -1,0 +1,13 @@
+{
+  "name": "TestApp20",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react-native": "^0.20.0",
+    "react-native-auto-updater": "^0.2.5",
+    "react-native-fs": "^1.3.0"
+  }
+}
