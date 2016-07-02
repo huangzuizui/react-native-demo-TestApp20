@@ -83,11 +83,6 @@ class TestApp20 extends Component {
                 </TouchableOpacity>
                 <TouchableOpacity
                     onPress={() => {
-                        //FileOpener.open('hello', 'opener').then((str) => {
-                        //    alert('success!!')
-                        //},(str) => {
-                        //    alert('error!!')
-                        //})
                         NativeDocumentController.show({
                             file: '/var/containers/Bundle/Application/5D643951-52D7-462F-858A-120D3131602E/TestApp20.app/test.doc'
                         });
