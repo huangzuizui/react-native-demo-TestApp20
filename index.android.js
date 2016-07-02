@@ -63,11 +63,7 @@ class TestApp20 extends Component {
                     <Text>show hh promise</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => {
-                    //FileOpener.open("/storage/emulated/0/jxmall.png", "image/png").then((msg, a, b) => {
-                    //    alert(msg + a + b);
-                    //},(e) => {
-                    //    alert(e)
-                    //});
+                    
                     FileOpener.open("/sdcard/aaaa.pdf", "application/pdf").then((msg) => {
                         this.setState({
                             msg
