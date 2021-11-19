@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T08:39:48.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="3h5pXyCdtyFZtf9N0q1y" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T09:52:50.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="f3OWWMAdC0ilbqlnKAjT" version="15.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1527" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -30,7 +30,7 @@
         <mxCell id="Toa8bJAQONpsRSG5JDjS-8" value="标准输入" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="10" width="120" height="1140" as="geometry" />
         </mxCell>
-        <mxCell id="Toa8bJAQONpsRSG5JDjS-48" value="UI+UX+Data&amp;nbsp;&lt;br&gt;自测报告&lt;br&gt;验收标准&lt;br&gt;视觉&lt;br&gt;prd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-8">
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-48" value="UI+UX+Data&amp;nbsp;&lt;br&gt;自测报告&lt;br&gt;验收标准&lt;br&gt;视觉&lt;br&gt;prd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontColor=#FF4A08;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-8">
           <mxGeometry x="20" y="240" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-52" value="UI+UX+Data&lt;br&gt;工具" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-8">
@@ -183,11 +183,20 @@
         <mxCell id="Toa8bJAQONpsRSG5JDjS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-6" target="Toa8bJAQONpsRSG5JDjS-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF330A;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-7" target="Toa8bJAQONpsRSG5JDjS-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-7" value="排期buffer问题跟进" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="670" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Toa8bJAQONpsRSG5JDjS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-20" target="Toa8bJAQONpsRSG5JDjS-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-20" target="Toa8bJAQONpsRSG5JDjS-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="710" y="550" />
+              <mxPoint x="365" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.437;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-44" target="Toa8bJAQONpsRSG5JDjS-45">
           <mxGeometry relative="1" as="geometry" />
@@ -200,6 +209,110 @@
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="Toa8bJAQONpsRSG5JDjS-77">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-83" value="PRD&lt;br&gt;视觉稿&lt;br&gt;接口文档&lt;br&gt;测试用例" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-84" target="Toa8bJAQONpsRSG5JDjS-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-84" value="打开页面，进入工具抓取接口" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-85" target="Toa8bJAQONpsRSG5JDjS-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-85" value="需求开发" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-86" target="Toa8bJAQONpsRSG5JDjS-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-86" target="Toa8bJAQONpsRSG5JDjS-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-86" value="是否新接口" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1290" y="515" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-87" value="创建接口" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1430" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-88" value="已有接口新建变更" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1250" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-97" target="Toa8bJAQONpsRSG5JDjS-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-97" value="响应编辑" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1330" y="1080" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-98" target="Toa8bJAQONpsRSG5JDjS-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-98" target="Toa8bJAQONpsRSG5JDjS-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-98" value="简单查询" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1290" y="1170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-100" target="Toa8bJAQONpsRSG5JDjS-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-100" value="编辑接口响应数据" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-102" value="进入工具" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1660" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-103" target="Toa8bJAQONpsRSG5JDjS-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-103" value="接口增删改场景" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1460" y="1170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-105" target="Toa8bJAQONpsRSG5JDjS-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-105" value="编辑接口响应数据" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1460" y="1260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-107" target="Toa8bJAQONpsRSG5JDjS-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-107" target="Toa8bJAQONpsRSG5JDjS-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="1530.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-107" value="是否存在增删改相关影响的接口" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1460" y="1330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-108" target="Toa8bJAQONpsRSG5JDjS-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="1530.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-108" value="添加相关接口响应数据的变更" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1460" y="1450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-109" value="编辑接口" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1330" y="780" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-112" value="完成接口编辑" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="1540" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-116" value="接口响应是否依赖特定请求参数" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1330" y="840" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
