@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T10:57:07.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="6QtsQTaQhQIBI7TcDmYj" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T03:20:59.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="atfPuigAKnP4Z5_3F9LA" version="15.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1298" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,8 +210,8 @@
         <mxCell id="Toa8bJAQONpsRSG5JDjS-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="Toa8bJAQONpsRSG5JDjS-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Toa8bJAQONpsRSG5JDjS-83" value="PRD&lt;br&gt;视觉稿&lt;br&gt;接口文档&lt;br&gt;测试用例" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1300" y="180" width="120" height="80" as="geometry" />
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-83" value="PRD&lt;br&gt;视觉稿&lt;br&gt;接口文档&lt;br&gt;测试用例" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="220" width="240" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-84" target="Toa8bJAQONpsRSG5JDjS-86">
           <mxGeometry relative="1" as="geometry" />
@@ -342,14 +342,95 @@
         <mxCell id="Toa8bJAQONpsRSG5JDjS-124" value="新建变更" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1180" y="500" width="990" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="Toa8bJAQONpsRSG5JDjS-129" value="&lt;h1&gt;Heading.&lt;/h1&gt;&lt;div&gt;&lt;b&gt;已有接口上迭代：&lt;/b&gt;已有接口上创建变更，同一接口支持多种变更。解决同一接口返回测试不同返回。对应常见场景如正常的数据返回和异常数据报错。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-124">
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-129" value="&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;已有接口上迭代：&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;已有接口上创建变更在开发中占比80%，通过自动化抓取后，高效实现接口mock。同一接口支持多种变更，解决同一接口返回测试不同响应。对应常见场景如正常的数据返回和异常数据报错。&lt;/span&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;新建接口：&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;基于接口文档，前端录入mock数据。&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-124">
           <mxGeometry x="450" y="15" width="490" height="195" as="geometry" />
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-125" value="参数匹配" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1180" y="830" width="990" height="210" as="geometry" />
         </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-130" value="&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;已有接口上迭代：&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-125">
+          <mxGeometry x="460" y="15" width="490" height="195" as="geometry" />
+        </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-126" value="支持增删改查mock" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1180" y="1160" width="990" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-131" target="Toa8bJAQONpsRSG5JDjS-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-131" value="前端交付验收" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1345" y="1790" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-132" target="Toa8bJAQONpsRSG5JDjS-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-132" value="验收通过" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1365" y="1910" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-134" target="Toa8bJAQONpsRSG5JDjS-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-134" value="页面调试" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1345" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-136" target="Toa8bJAQONpsRSG5JDjS-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-136" target="Toa8bJAQONpsRSG5JDjS-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-136" value="前端入参是否正确" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1365" y="2120" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-138" target="Toa8bJAQONpsRSG5JDjS-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-138" target="Toa8bJAQONpsRSG5JDjS-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-138" value="后端出参是否符合前端要求" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1365" y="2280" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-140" value="冒烟、提测" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1345" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-142" target="Toa8bJAQONpsRSG5JDjS-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-142" value="mock入参" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1505" y="2125" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-144" target="Toa8bJAQONpsRSG5JDjS-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-144" value="修改出参" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1500" y="2285" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-146" target="Toa8bJAQONpsRSG5JDjS-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-146" value="同步前端变更，入参变更提bug，出参变更提需求" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1760" y="2160" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-150" target="Toa8bJAQONpsRSG5JDjS-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-150" target="Toa8bJAQONpsRSG5JDjS-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-150" value="后端出参是否符合前端要求" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1630" y="2120" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-154" target="Toa8bJAQONpsRSG5JDjS-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-154" value="前端代码调整" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1755" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-157" value="后端自助自主调试" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1281" y="1975" width="1049" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-158" value="&lt;h1&gt;高效接口自主自助调试&lt;/h1&gt;&lt;p&gt;&lt;b&gt;入参调试提效&lt;/b&gt;：当接口入参不符合预期，服务端可基于工具进行入参调试，不阻塞服务端开发，保障接口功能完备，符合预期。解决以往联调时前端入参不符合预期阻塞后续接口调试。产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;出参调试&lt;/b&gt;：当接口后期上线时出参与接口文档不一致时，服务端可在工具变更出参，并产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;高效反馈&lt;/b&gt;：基于工具产出接口变更文档，高效同步前端变更内容。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-157">
+          <mxGeometry x="639" y="15" width="391" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
