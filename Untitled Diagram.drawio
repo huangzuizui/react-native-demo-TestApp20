@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T03:20:59.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="atfPuigAKnP4Z5_3F9LA" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T03:27:15.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="vRuqHdfxWt-u5xv0Chkq" version="15.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1298" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -431,6 +431,12 @@
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-158" value="&lt;h1&gt;高效接口自主自助调试&lt;/h1&gt;&lt;p&gt;&lt;b&gt;入参调试提效&lt;/b&gt;：当接口入参不符合预期，服务端可基于工具进行入参调试，不阻塞服务端开发，保障接口功能完备，符合预期。解决以往联调时前端入参不符合预期阻塞后续接口调试。产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;出参调试&lt;/b&gt;：当接口后期上线时出参与接口文档不一致时，服务端可在工具变更出参，并产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;高效反馈&lt;/b&gt;：基于工具产出接口变更文档，高效同步前端变更内容。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-157">
           <mxGeometry x="639" y="15" width="391" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-159" value="前端标准交付验收" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1281" y="1780" width="1049" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-160" value="&lt;h1&gt;前端交付验收&lt;/h1&gt;&lt;p&gt;正式同学发起交付验收，项目PM拉齐接口相关同学一同验收前端页面验收文档。冒烟页面所有功能，完成验收。&lt;/p&gt;&lt;p&gt;交互可前置参与页面还原度验收。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-159">
+          <mxGeometry x="639" y="15" width="391" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
