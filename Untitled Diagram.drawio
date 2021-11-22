@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T03:27:15.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="vRuqHdfxWt-u5xv0Chkq" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T06:30:31.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="_DOKaThBRONCvBMaWBz4" version="15.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1298" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3245" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -312,6 +312,11 @@
         <mxCell id="Toa8bJAQONpsRSG5JDjS-109" value="编辑接口" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1330" y="780" width="170" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0F0F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-112" target="Toa8bJAQONpsRSG5JDjS-164">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-112" value="完成接口编辑" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1320" y="1540" width="170" height="30" as="geometry" />
         </mxCell>
@@ -342,17 +347,20 @@
         <mxCell id="Toa8bJAQONpsRSG5JDjS-124" value="新建变更" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1180" y="500" width="990" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="Toa8bJAQONpsRSG5JDjS-129" value="&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;已有接口上迭代：&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;已有接口上创建变更在开发中占比80%，通过自动化抓取后，高效实现接口mock。同一接口支持多种变更，解决同一接口返回测试不同响应。对应常见场景如正常的数据返回和异常数据报错。&lt;/span&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;新建接口：&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;基于接口文档，前端录入mock数据。&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-124">
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-129" value="&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;已有接口上迭代：&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;已有接口上创建变更在开发中占比80%，通过自动化抓取后，&lt;font color=&quot;#ff4a08&quot;&gt;高效&lt;/font&gt;实现接口mock。同一接口支持多种变更，解决同一接口返回测试不同响应。对应常见场景如正常的数据返回和异常数据报错。&lt;/span&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;新建接口：&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;基于接口文档，前端录入mock数据。&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-124">
           <mxGeometry x="450" y="15" width="490" height="195" as="geometry" />
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-125" value="参数匹配" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1180" y="830" width="990" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Toa8bJAQONpsRSG5JDjS-130" value="&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;已有接口上迭代：&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-125">
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-130" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;基于入参不同响应不同出参，支持接口多态的mock。&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-125">
           <mxGeometry x="460" y="15" width="490" height="195" as="geometry" />
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-126" value="支持增删改查mock" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1180" y="1160" width="990" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-161" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font color=&quot;#ff4a08&quot;&gt;高效&lt;/font&gt;开发：&lt;span style=&quot;font-weight: normal&quot;&gt;oneapi、山海关等mock工具只支持查询的mock，难以支持增删改的模块，导致页面交互流程并不能完整走通，进而导致开发环节问题不能被充分暴露，这是导致联调环境低效的重要原因之一。基于工具可以完整模拟接口增删改查，保障交互链路走通，前置暴露技术设计问题。&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-126">
+          <mxGeometry x="474" y="10" width="490" height="195" as="geometry" />
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-131" target="Toa8bJAQONpsRSG5JDjS-132">
           <mxGeometry relative="1" as="geometry" />
@@ -429,7 +437,7 @@
         <mxCell id="Toa8bJAQONpsRSG5JDjS-157" value="后端自助自主调试" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1281" y="1975" width="1049" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="Toa8bJAQONpsRSG5JDjS-158" value="&lt;h1&gt;高效接口自主自助调试&lt;/h1&gt;&lt;p&gt;&lt;b&gt;入参调试提效&lt;/b&gt;：当接口入参不符合预期，服务端可基于工具进行入参调试，不阻塞服务端开发，保障接口功能完备，符合预期。解决以往联调时前端入参不符合预期阻塞后续接口调试。产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;出参调试&lt;/b&gt;：当接口后期上线时出参与接口文档不一致时，服务端可在工具变更出参，并产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;高效反馈&lt;/b&gt;：基于工具产出接口变更文档，高效同步前端变更内容。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-157">
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-158" value="&lt;h1&gt;高效接口自主自助调试&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff4a08&quot;&gt;高效&lt;/font&gt;入参调试&lt;/b&gt;：当接口入参不符合预期，服务端可基于工具进行入参调试。避免原有的前后端接口联调串行调试，不阻塞服务端开发，保障接口功能完备。产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;出参调试&lt;/b&gt;：当接口后期上线时出参与接口文档不一致时，服务端可在工具变更出参，并产出变更文档。&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff4a08&quot;&gt;高效&lt;/font&gt;反馈&lt;/b&gt;：基于工具产出接口变更文档，高效同步前端变更内容。&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff0f0f&quot;&gt;&lt;b&gt;避免低效联调&lt;/b&gt;&lt;/font&gt;：调试过程中发现问题经过aone反馈，前端更新代码，避免低效联调，过程问题跟踪落aone，可复盘。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-157">
           <mxGeometry x="639" y="15" width="391" height="195" as="geometry" />
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-159" value="前端标准交付验收" style="swimlane;horizontal=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -437,6 +445,21 @@
         </mxCell>
         <mxCell id="Toa8bJAQONpsRSG5JDjS-160" value="&lt;h1&gt;前端交付验收&lt;/h1&gt;&lt;p&gt;正式同学发起交付验收，项目PM拉齐接口相关同学一同验收前端页面验收文档。冒烟页面所有功能，完成验收。&lt;/p&gt;&lt;p&gt;交互可前置参与页面还原度验收。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="Toa8bJAQONpsRSG5JDjS-159">
           <mxGeometry x="639" y="15" width="391" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0F0F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-164" target="Toa8bJAQONpsRSG5JDjS-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-164" value="完成页面开发" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="1600" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0F0F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Toa8bJAQONpsRSG5JDjS-165" target="Toa8bJAQONpsRSG5JDjS-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-165" value="完成需求开发" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="1650" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Toa8bJAQONpsRSG5JDjS-169" value="产出交付文档" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="1700" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
